@@ -11,7 +11,6 @@ require 'pry'
   #   binding.pry
     # "Freddy Mercury" => {
     #   name: "Freddy",
-  binding.pry
   #     email: "freddy@mercury.com",
   #     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   #   }
@@ -20,6 +19,8 @@ require 'pry'
 def remove_strawberry(contacts)
   contacts.select do |key, value|
     key.map do |key, fruit|
+        binding.pry
+
       ["@{fruit}"].shift
     end
   end 
