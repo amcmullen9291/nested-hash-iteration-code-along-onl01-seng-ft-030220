@@ -18,9 +18,9 @@ require 'pry'
   
 def remove_strawberry(contacts)
   contacts.select do |key, value|
-    key.map do |key, fruit|
-        binding.pry
+            binding.pry
 
+    key.map do |key, fruit|
       ["@{fruit}"].shift
     end
   end 
