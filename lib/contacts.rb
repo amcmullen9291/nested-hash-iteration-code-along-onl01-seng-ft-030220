@@ -17,11 +17,5 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  contacts.select do |key, value|
-            binding.pry
-
-    key.map do |key, fruit|
-      ["@{fruit}"].shift
-    end
-  end 
+  contacts["Freddy Mercury"][favorite_ice_cream_flavors].shift
 end
