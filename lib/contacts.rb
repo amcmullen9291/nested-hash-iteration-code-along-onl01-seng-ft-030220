@@ -11,7 +11,7 @@ require 'pry'
   #   binding.pry
     # "Freddy Mercury" => {
     #   name: "Freddy",
-  binding.pry
+  # binding.pry
   #     email: "freddy@mercury.com",
   #     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   #   }
