@@ -12,10 +12,10 @@ require 'pry'
     # "Freddy Mercury" => {
     #   name: "Freddy",
   binding.pry
-      email: "freddy@mercury.com",
-      favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
-    }
-  }
+  #     email: "freddy@mercury.com",
+  #     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
+  #   }
+  # }
   
 def remove_strawberry(contacts)
   contacts.map do |key, value|
