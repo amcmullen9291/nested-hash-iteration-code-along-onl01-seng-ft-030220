@@ -20,5 +20,7 @@ require 'pry'
 def remove_strawberry(contacts)
   contacts.map do |key, value|
     key.map do |key, fruit|
-      "@{fruit"]
+      ["@{fruit"].shift
+    end
+  end 
 end
